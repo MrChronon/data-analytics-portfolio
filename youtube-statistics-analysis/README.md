@@ -33,4 +33,4 @@ Python, pandas, Matplotlib, Seaborn, missingno, SciPy, scikit-learn, Jupyter Not
 
 - [Jupyter Notebook](./youtube_statistics_analysis.ipynb)
 
-> Исходный датасет `Global YouTube Statistics.csv` не включён в репозиторий. Для запуска ноутбука его необходимо добавить в рабочее окружение.
+- [Исходный датасет](./Global%20YouTube%20Statistics.csv)
