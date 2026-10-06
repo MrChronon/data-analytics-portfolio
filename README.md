@@ -41,6 +41,7 @@ flowchart TB
     D --> D2[YouTube Statistics]
     D --> D3[TopFace Prolongation]
     D --> D4[Data Quality / Excel Tests]
+    D --> D5[Ride-Hailing Funnel / A-B Hypotheses]
 
     R --> R1[EEG Analysis - SPSS]
     R --> R2[Hypotheses / Correlations / Regression]
@@ -58,6 +59,7 @@ flowchart TB
 
 | Проект | О чём проект | Стек | Результат |
 |---|---|---|---|
+| [Ride-Hailing Product Funnel & A/B Hypotheses](./ride-hailing-product-analysis/) | Продуктовый анализ 101 500 сессий ride-hailing приложения: воронка, сегментация, проблемные сценарии и подготовка гипотез для A/B-тестов | Python, pandas, Matplotlib, Product Analytics, A/B, ICE | Найдены ключевые точки потерь и проблемные сегменты, проверены альтернативные объяснения, сформированы 7 SMART-гипотез и выполнена ICE-приоритизация |
 | [Salary EDA](./salary-eda/) | Анализ учебного датасета о зарплатах: очистка, распределения, факторы дохода, верхний зарплатный дециль | Python, pandas, Matplotlib, Seaborn, statsmodels | Подготовлена очищенная выборка, построены визуализации и OLS-модели, описан профиль верхних зарплат |
 | [Global YouTube Statistics Analysis](./youtube-statistics-analysis/) | EDA и статистический анализ популярных YouTube-каналов: пропуски, распределения, корреляции, линейная и логистическая регрессия | Python, pandas, SciPy, scikit-learn, Matplotlib, Seaborn, missingno | Сравнены Pearson/Spearman, проведена диагностика остатков, классификация оценена по accuracy и macro F1 с stratify и baseline |
 | [Horse Colic Data Quality EDA](./horse-colic-eda/) | Проверка качества табличного датасета: коды категорий, пропуски, выбросы, стратегия заполнения | Python, pandas, NumPy, SciPy, Matplotlib | Сохранены все строки, исправлена ошибка кодирования, итоговая таблица приведена к состоянию без пропусков |
