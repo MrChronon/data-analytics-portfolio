@@ -4,7 +4,7 @@
   <img src="./assets/portfolio-overview.svg" alt="Data Analytics, Research and AI Automation portfolio overview" width="100%">
 </p>
 
-Портфолио проектов по аналитике данных и AI: Python, SQL, Excel, SPSS, статистика, очистка данных, расчёт метрик, API-интеграции и LLM.
+Портфолио проектов по аналитике данных и AI: Python, SQL, Excel, SPSS, статистика, очистка данных, расчёт метрик, API-интеграции, LLM и формализация требований для систем компьютерного зрения.
 
 ## Стек
 
@@ -17,6 +17,8 @@
 ![Statistics](https://img.shields.io/badge/Statistics-6F42C1?style=for-the-badge)
 ![REST API](https://img.shields.io/badge/REST_API-005571?style=for-the-badge)
 ![LLM](https://img.shields.io/badge/LLM-7C3AED?style=for-the-badge)
+![BPMN](https://img.shields.io/badge/BPMN-FF6B35?style=for-the-badge)
+![Computer Vision](https://img.shields.io/badge/Computer_Vision-2D7D9A?style=for-the-badge)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 
 ## О чём это портфолио
@@ -24,6 +26,7 @@
 - **Аналитика данных:** очистка, EDA, расчёт метрик, проверка качества данных, визуализация и интерпретация результатов.
 - **Статистика и исследования:** проверка гипотез, корреляции, регрессии, A/B, SPSS и работа с исследовательскими данными.
 - **AI и автоматизация:** REST API, PostgreSQL, LLM, CRM-интеграции, Speech-to-Text и проектирование AI-workflows.
+- **Computer Vision и процессы:** формализация требований, чек-листы, BPMN и перевод логики машинного зрения в понятные рабочие регламенты.
 
 ## Карта портфолио
 
@@ -46,6 +49,7 @@ flowchart TB
     A --> A1[CityCar AI Agent Test]
     A --> A2[BULL - Local LLM Benchmark]
     A --> A3[API and CRM Automation]
+    A --> A4[NVI - Machine Vision Regulations]
 ```
 
 **Вектор развития:** Data Analyst → Behavioral Analytics → Applied AI / LLM systems. Мой основной интерес - задачи, где данные, поведение пользователей и AI соединяются в одном рабочем процессе.
@@ -62,6 +66,7 @@ flowchart TB
 | [OctopusTech SPSS EEG Analysis](./octopustech-spss-eeg-analysis/) | Статистический анализ EEG-данных: сравнение baseline и stimulus по alpha, beta и theta | SPSS, Excel, statistics | Проверены гипотезы, описаны ограничения выборки, выделены стимулы с более выраженным откликом |
 | [Data Management 365 Excel Test](./data-management-365-excel-test/) | Тестовое Excel-задание: сопоставление двух таблиц по составному ключу, агрегация, поиск отсутствующих записей и классификация по размеру файла | Excel, XLOOKUP, AVERAGEIF, MINIFS, COUNTIFS, FILTER, IF | Рассчитаны метрики, найдены и добавлены 5 пропущенных файлов, подготовлен двуязычный отчёт в DOCX и PDF |
 | [Excel Test Assignment](./gbuz-gvv3-excel-test/) | Excel-тестовое: уникальные значения, частоты, поиск, дубликаты, диаграмма и преобразование таблицы | Excel, formulas, dynamic arrays | Подготовлен итоговый Excel-файл, нормализованная таблица и сопроводительное письмо с допущениями |
+| [NVI Machine Vision Regulations](./nvi-machine-vision-regulations/) | Формализация требований к промышленной системе машинного зрения: кадр камеры, критерии события ПВО-1 и испытания | Computer Vision, BPMN, requirements analysis, technical documentation | Подготовлены регламент, чек-лист, схема рекомендуемого расположения камеры и BPMN-логика возникновения события |
 | [CityCar AI Agent Test](./citycar-ai-agent-test/) | Архитектура AI-системы для анализа продаж: amoCRM, телефония, Speech-to-Text, LLM-анализ разговоров и управленческий отчёт | Python, REST API, amoCRM, SQL, PostgreSQL, LLM, Speech-to-Text | Спроектирована архитектура, описаны риски и human-in-the-loop, добавлен Python-пример для amoCRM и ссылка на мой AI-проект [BULL](https://github.com/MrChronon/bull) |
 
 ## Основные навыки
@@ -70,6 +75,8 @@ flowchart TB
 - SQL для аналитических запросов;
 - REST API и интеграции внешних сервисов;
 - локальные LLM, AI-assisted workflows и сравнительное тестирование моделей;
+- формализация требований, BPMN и проектирование логики процессов;
+- работа с кейсами компьютерного зрения и подготовка технических регламентов;
 - Excel для расчётов, поиска, агрегации и преобразования таблиц;
 - SPSS для статистического анализа исследовательских данных;
 - статистика, проверка гипотез и интерпретация результатов;
