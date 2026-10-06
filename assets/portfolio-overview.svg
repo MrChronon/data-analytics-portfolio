@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="430" viewBox="0 0 1400 430" role="img" aria-labelledby="title desc">
+  <title id="title">Egor Anisimov - Data Analytics, Research and AI Automation</title>
+  <desc id="desc">Overview of skills and development direction: data analytics, statistics and research, AI and automation.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#172554"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="6" stdDeviation="9" flood-color="#000000" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+
+  <rect width="1400" height="430" rx="28" fill="url(#bg)"/>
+
+  <text x="70" y="66" fill="#ffffff" font-family="Arial, sans-serif" font-size="34" font-weight="700">Data Analytics  •  Research  •  AI Automation</text>
+  <text x="70" y="101" fill="#cbd5e1" font-family="Arial, sans-serif" font-size="19">Портфолио: от качества данных и статистики до API-интеграций и LLM</text>
+
+  <g filter="url(#shadow)">
+    <rect x="70" y="135" width="385" height="190" rx="20" fill="#ffffff"/>
+    <rect x="507" y="135" width="385" height="190" rx="20" fill="#ffffff"/>
+    <rect x="944" y="135" width="385" height="190" rx="20" fill="#ffffff"/>
+  </g>
+
+  <circle cx="112" cy="178" r="20" fill="#dbeafe"/>
+  <path d="M102 184 L110 176 L117 181 L126 169" fill="none" stroke="#2563eb" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="145" y="185" fill="#0f172a" font-family="Arial, sans-serif" font-size="24" font-weight="700">Data Analytics</text>
+  <text x="95" y="224" fill="#334155" font-family="Arial, sans-serif" font-size="17">Python / pandas • SQL • Excel</text>
+  <text x="95" y="253" fill="#334155" font-family="Arial, sans-serif" font-size="17">EDA • качество данных • метрики</text>
+  <text x="95" y="282" fill="#334155" font-family="Arial, sans-serif" font-size="17">визуализация • аналитические выводы</text>
+
+  <circle cx="549" cy="178" r="20" fill="#ede9fe"/>
+  <path d="M540 184 C544 171 557 171 561 184 M545 174 L545 166 M556 174 L556 166" fill="none" stroke="#7c3aed" stroke-width="3.5" stroke-linecap="round"/>
+  <text x="582" y="185" fill="#0f172a" font-family="Arial, sans-serif" font-size="24" font-weight="700">Research &amp; Statistics</text>
+  <text x="532" y="224" fill="#334155" font-family="Arial, sans-serif" font-size="17">SPSS • SciPy • statsmodels</text>
+  <text x="532" y="253" fill="#334155" font-family="Arial, sans-serif" font-size="17">гипотезы • корреляции • регрессии</text>
+  <text x="532" y="282" fill="#334155" font-family="Arial, sans-serif" font-size="17">A/B • интерпретация • исследовательский подход</text>
+
+  <circle cx="986" cy="178" r="20" fill="#dcfce7"/>
+  <path d="M977 179 H995 M986 170 V188 M974 168 L998 190" fill="none" stroke="#16a34a" stroke-width="3.5" stroke-linecap="round"/>
+  <text x="1019" y="185" fill="#0f172a" font-family="Arial, sans-serif" font-size="24" font-weight="700">AI &amp; Automation</text>
+  <text x="969" y="224" fill="#334155" font-family="Arial, sans-serif" font-size="17">REST API • PostgreSQL • LLM</text>
+  <text x="969" y="253" fill="#334155" font-family="Arial, sans-serif" font-size="17">Speech-to-Text • CRM workflows</text>
+  <text x="969" y="282" fill="#334155" font-family="Arial, sans-serif" font-size="17">agentic workflows • local AI infrastructure</text>
+
+  <rect x="70" y="352" width="1259" height="44" rx="15" fill="#ffffff" fill-opacity="0.09"/>
+  <text x="92" y="381" fill="#e2e8f0" font-family="Arial, sans-serif" font-size="18" font-weight="600">Данные</text>
+  <text x="176" y="381" fill="#94a3b8" font-family="Arial, sans-serif" font-size="22">→</text>
+  <text x="210" y="381" fill="#e2e8f0" font-family="Arial, sans-serif" font-size="18" font-weight="600">Проверка качества</text>
+  <text x="382" y="381" fill="#94a3b8" font-family="Arial, sans-serif" font-size="22">→</text>
+  <text x="416" y="381" fill="#e2e8f0" font-family="Arial, sans-serif" font-size="18" font-weight="600">Метрики</text>
+  <text x="503" y="381" fill="#94a3b8" font-family="Arial, sans-serif" font-size="22">→</text>
+  <text x="537" y="381" fill="#e2e8f0" font-family="Arial, sans-serif" font-size="18" font-weight="600">Выводы</text>
+  <text x="624" y="381" fill="#94a3b8" font-family="Arial, sans-serif" font-size="22">→</text>
+  <text x="658" y="381" fill="#e2e8f0" font-family="Arial, sans-serif" font-size="18" font-weight="600">Решения</text>
+  <text x="746" y="381" fill="#94a3b8" font-family="Arial, sans-serif" font-size="22">→</text>
+  <text x="780" y="381" fill="#e2e8f0" font-family="Arial, sans-serif" font-size="18" font-weight="600">Автоматизация</text>
+  <text x="1102" y="381" fill="#93c5fd" font-family="Arial, sans-serif" font-size="17" font-weight="700">Фокус: Data / Behavioral Analytics / Applied AI</text>
+</svg>
