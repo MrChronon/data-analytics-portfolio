@@ -55,5 +55,8 @@
   <text x="658" y="381" fill="#e2e8f0" font-family="Arial, sans-serif" font-size="18" font-weight="600">Решения</text>
   <text x="746" y="381" fill="#94a3b8" font-family="Arial, sans-serif" font-size="22">→</text>
   <text x="780" y="381" fill="#e2e8f0" font-family="Arial, sans-serif" font-size="18" font-weight="600">Автоматизация</text>
-  <text x="1102" y="381" fill="#93c5fd" font-family="Arial, sans-serif" font-size="17" font-weight="700">Фокус: Data / Behavioral Analytics / Applied AI</text>
+  <text x="1102" y="370" fill="#93c5fd" font-family="Arial, sans-serif" font-size="17" font-weight="700">
+    <tspan x="1102" dy="0">Фокус: Data / Behavioral</tspan>
+    <tspan x="1102" dy="20">Analytics / Applied AI</tspan>
+  </text>
 </svg>
