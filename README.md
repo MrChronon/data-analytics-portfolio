@@ -14,6 +14,7 @@
 | [OctopusTech SPSS EEG Analysis](./octopustech-spss-eeg-analysis/) | Статистический анализ EEG-данных: сравнение baseline и stimulus по alpha, beta и theta | SPSS, Excel, statistics | Проверены гипотезы, описаны ограничения выборки, выделены стимулы с более выраженным откликом |
 | [Data Management 365 Excel Test](./data-management-365-excel-test/) | Тестовое Excel-задание: сопоставление двух таблиц по составному ключу, агрегация, поиск отсутствующих записей и классификация по размеру файла | Excel, XLOOKUP, AVERAGEIF, MINIFS, COUNTIFS, FILTER, IF | Рассчитаны метрики, найдены и добавлены 5 пропущенных файлов, подготовлен двуязычный отчёт в DOCX и PDF |
 | [Excel Test Assignment](./gbuz-gvv3-excel-test/) | Excel-тестовое: уникальные значения, частоты, поиск, дубликаты, диаграмма и преобразование таблицы | Excel, formulas, dynamic arrays | Подготовлен итоговый Excel-файл, нормализованная таблица и сопроводительное письмо с допущениями |
+| [CityCar AI Agent Test](./citycar-ai-agent-test/) | Архитектура AI-системы для анализа продаж: amoCRM, телефония, Speech-to-Text, LLM-анализ разговоров и управленческий отчёт | Python, REST API, amoCRM, SQL, PostgreSQL, LLM, Speech-to-Text | Спроектирована архитектура, описаны риски и human-in-the-loop, добавлен Python-пример поиска сделок без задач и с просроченными задачами |
 
 ## Основные навыки
 
