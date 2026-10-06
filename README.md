@@ -1,6 +1,54 @@
 # Data Analytics Portfolio
 
+<p align="center">
+  <img src="./assets/portfolio-overview.svg" alt="Data Analytics, Research and AI Automation portfolio overview" width="100%">
+</p>
+
 Портфолио проектов по аналитике данных и AI: Python, SQL, Excel, SPSS, статистика, очистка данных, расчёт метрик, API-интеграции и LLM.
+
+## Стек
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![pandas](https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![Excel](https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
+![SPSS](https://img.shields.io/badge/SPSS-5B5B9F?style=for-the-badge)
+![Statistics](https://img.shields.io/badge/Statistics-6F42C1?style=for-the-badge)
+![REST API](https://img.shields.io/badge/REST_API-005571?style=for-the-badge)
+![LLM](https://img.shields.io/badge/LLM-7C3AED?style=for-the-badge)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+
+## Что я показываю в этом портфолио
+
+- **Аналитика данных:** очистка, EDA, расчёт метрик, проверка качества данных, визуализация и интерпретация результатов.
+- **Статистика и исследования:** проверка гипотез, корреляции, регрессии, A/B, SPSS и работа с исследовательскими данными.
+- **AI и автоматизация:** REST API, PostgreSQL, LLM, CRM-интеграции, Speech-to-Text и проектирование AI-workflows.
+
+## Карта портфолио
+
+```mermaid
+flowchart TB
+    P[Data Analytics Portfolio]
+    P --> D[Data Analytics]
+    P --> R[Research & Statistics]
+    P --> A[AI & Automation]
+
+    D --> D1[Salary EDA]
+    D --> D2[YouTube Statistics]
+    D --> D3[TopFace Prolongation]
+    D --> D4[Data Quality / Excel Tests]
+
+    R --> R1[EEG Analysis - SPSS]
+    R --> R2[Hypotheses / Correlations / Regression]
+    R --> R3[A-B and ML Metrics]
+
+    A --> A1[CityCar AI Agent Test]
+    A --> A2[BULL - Local LLM Benchmark]
+    A --> A3[API and CRM Automation]
+```
+
+**Вектор развития:** Data Analyst → Behavioral Analytics → Applied AI / LLM systems. Мой основной интерес - задачи, где данные, поведение пользователей и AI соединяются в одном рабочем процессе.
 
 ## Проекты
 
