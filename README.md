@@ -13,6 +13,7 @@
 ![SQL](https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Excel](https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
+![VBA](https://img.shields.io/badge/VBA-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
 ![SPSS](https://img.shields.io/badge/SPSS-5B5B9F?style=for-the-badge)
 ![Statistics](https://img.shields.io/badge/Statistics-6F42C1?style=for-the-badge)
 ![REST API](https://img.shields.io/badge/REST_API-005571?style=for-the-badge)
@@ -42,6 +43,7 @@ flowchart TB
     D --> D3[TopFace Prolongation]
     D --> D4[Data Quality / Excel Tests]
     D --> D5[Ride-Hailing Funnel / A-B Hypotheses]
+    D --> D6[RKC Data Quality / VBA]
 
     R --> R1[EEG Analysis - SPSS]
     R --> R2[Hypotheses / Correlations / Regression]
@@ -66,6 +68,7 @@ flowchart TB
 | [Effective Mobile Data Analyst Test](./effective-mobile/) | Полное тестовое задание для аналитика: вероятность, Python, SQL, статистика, A/B-тесты и ML-метрики | Python, SQL, statistics, ML metrics | Оформлены решения с пояснениями, оценкой сложности, SQL-запросами и ручными расчётами метрик |
 | [TopFace Prolongation Analysis](./top-face/) | Анализ клиентских проектов и финансовых данных для расчёта пролонгаций по отделу, менеджерам и месяцам | Python, pandas, Jupyter Notebook, Excel | Рассчитаны коэффициенты пролонгации за 2023 год, найдены проблемные зоны и подготовлен Excel-отчёт |
 | [OctopusTech SPSS EEG Analysis](./octopustech-spss-eeg-analysis/) | Статистический анализ EEG-данных: сравнение baseline и stimulus по alpha, beta и theta | SPSS, Excel, statistics | Проверены гипотезы, описаны ограничения выборки, выделены стимулы с более выраженным откликом |
+| [RKC Billing Data Quality & VBA](./rkc-excel-data-quality/) | Проверка качества Excel-выгрузки по 3 990 ЛС: пропуски, расчётные зависимости, восстановление классификации, реконструкция начислений и VBA-свод по дебиторской задолженности | Excel, INDEX/MATCH, COUNTIFS, SUMIF, SUMPRODUCT, VBA, Data Quality | Выявлено 330 проблемных ЛС, восстановлено 23 пропуска типа строения, после реконструкции осталось 81 ЛС с недостаточными первичными данными |
 | [Data Management 365 Excel Test](./data-management-365-excel-test/) | Тестовое Excel-задание: сопоставление двух таблиц по составному ключу, агрегация, поиск отсутствующих записей и классификация по размеру файла | Excel, XLOOKUP, AVERAGEIF, MINIFS, COUNTIFS, FILTER, IF | Рассчитаны метрики, найдены и добавлены 5 пропущенных файлов, подготовлен двуязычный отчёт в DOCX и PDF |
 | [Excel Test Assignment](./gbuz-gvv3-excel-test/) | Excel-тестовое: уникальные значения, частоты, поиск, дубликаты, диаграмма и преобразование таблицы | Excel, formulas, dynamic arrays | Подготовлен итоговый Excel-файл, нормализованная таблица и сопроводительное письмо с допущениями |
 | [NVI Machine Vision Regulations](./nvi-machine-vision-regulations/) | Извлечение требований из 35-минутного неструктурированного видео и формализация логики промышленной системы машинного зрения | Computer Vision, BPMN, requirements analysis, technical documentation | Неструктурированная техническая информация преобразована в регламент, чек-лист, схему расположения камеры и BPMN-логику события детектируемого системой компьютерного зрения |
@@ -80,7 +83,8 @@ flowchart TB
 - работа с неструктурированной информацией и перевод её в формальные требования;
 - формализация требований, BPMN и проектирование логики процессов;
 - работа с кейсами компьютерного зрения и подготовка технических регламентов;
-- Excel для расчётов, поиска, агрегации и преобразования таблиц;
+- Excel для расчётов, поиска, агрегации, проверки качества данных и преобразования таблиц;
+- VBA для автоматизации повторяемых Excel-операций;
 - SPSS для статистического анализа исследовательских данных;
 - статистика, проверка гипотез и интерпретация результатов;
 - подготовка выводов для принятия решений.
